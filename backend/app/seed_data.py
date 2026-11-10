@@ -39,7 +39,7 @@ def seed_database():
         pw_hash = hash_pw("password123")
         users_data = [
             # 1. Student Lead
-            ("Alex Rivera", "student@researchhub.edu", pw_hash, "student", dept_ids[0], "Undergraduate Final Year Researcher", "https://api.dicebear.com/7.x/avataaars/svg?seed=Alex"),
+            ("Al Kabi Imtiaz Uddin", "student@researchhub.edu", pw_hash, "student", dept_ids[0], "Undergraduate Final Year Researcher", "https://api.dicebear.com/7.x/avataaars/svg?seed=AlKabi"),
             # 2. Student Collaborator
             ("Sara Chen", "sara@researchhub.edu", pw_hash, "student", dept_ids[1], "Master's Candidate in Machine Learning", "https://api.dicebear.com/7.x/avataaars/svg?seed=Sara"),
             # 3. Supervisor Lead
